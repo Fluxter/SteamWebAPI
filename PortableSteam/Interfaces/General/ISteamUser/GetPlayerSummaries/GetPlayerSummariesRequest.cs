@@ -16,7 +16,7 @@
         protected override Infrastructure.Objects.QueryStringDictionary GetParameterList()
         {
             var parameters = base.GetParameterList();
-            parameters.Add("steamids", SteamIDs);
+            parameters.Add("steamids", this.SteamIDs);
             return parameters;
         }
     }

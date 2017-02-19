@@ -37,7 +37,7 @@
         /// <returns></returns>
         public GetPlayerSummariesBuilder GetPlayerSummaries(params SteamIdentity[] identities)
         {
-            string ids = identities.Select(x => x.SteamID).ToDelimitedString(",");
+            string ids = identities.Select(x => x.AccountID).ToDelimitedString(",");
             return new GetPlayerSummariesBuilder(new GetPlayerSummariesRequest(this.Key) { SteamIDs = ids });
         }
         /// <summary>
