@@ -1,0 +1,55 @@
+﻿namespace PortableSteam.Fluent.Game
+{
+    using System;
+    using System.ComponentModel;
+
+    public class Dota2BaseBuilderHandler : SteamBaseBuilderHandler
+    {
+        /// <summary>
+        /// Constructor.
+        /// </summary>
+        /// <param name="key"></param>
+        public Dota2BaseBuilderHandler(string key) : base(key) { }
+        /// <summary>
+        /// Methods relating to Dota 2.
+        /// </summary>
+        /// <returns></returns>
+        public Dota2BuilderHandler IDOTA2()
+        {
+            return new Dota2BuilderHandler(this.Key);
+        }
+        /// <summary>
+        /// Methods relating to Dota 2 matches.
+        /// </summary>
+        /// <returns></returns>
+        public Dota2MatchBuilderHandler IDOTA2Match()
+        {
+            return new Dota2MatchBuilderHandler(this.Key);
+        }
+
+        #region Hidden
+
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        public override bool Equals(object obj)
+        {
+            return base.Equals(obj);
+        }
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        public override int GetHashCode()
+        {
+            return base.GetHashCode();
+        }
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        public override string ToString()
+        {
+            return base.ToString();
+        }
+        [EditorBrowsable(EditorBrowsableState.Never)]
+        public new Type GetType()
+        {
+            return this.GetType();
+        }
+
+        #endregion
+    }
+}
