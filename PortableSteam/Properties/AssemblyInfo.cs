@@ -6,11 +6,11 @@ using System.Runtime.InteropServices;
 // General Information about an assembly is controlled through the following 
 // set of attributes. Change these attribute values to modify the information
 // associated with an assembly.
-[assembly: AssemblyTitle("PortableSteam.")]
-[assembly: AssemblyDescription("")]
+[assembly: AssemblyTitle("PortableSteam")]
+[assembly: AssemblyDescription("The goal of this project is to allow C# developers who intend to use the Steam Web API to pull data from the Valve API server easily without worrying about syntax, interface names, method names and parameters.")]
 [assembly: AssemblyConfiguration("")]
-[assembly: AssemblyCompany("")]
-[assembly: AssemblyProduct("PortableSteam.")]
+[assembly: AssemblyCompany("fluxter.net")]
+[assembly: AssemblyProduct("PortableSteam")]
 [assembly: AssemblyCopyright("Copyright © 2017")]
 [assembly: AssemblyTrademark("")]
 [assembly: AssemblyCulture("")]
