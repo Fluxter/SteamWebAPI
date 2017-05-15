@@ -6,24 +6,12 @@
     public enum CommunityVisibilityState
     {
         /// <summary>
-        /// Private.
+        /// Not visible to the given account (friends only or private)
         /// </summary>
         Private = 1,
         /// <summary>
-        /// Friends only.
+        /// Public: Visible to everyone
         /// </summary>
-        FriendsOnly = 2,
-        /// <summary>
-        /// Friends of Friends. Currently this value is also set for "Public" and "Users Only" profiles.
-        /// </summary>
-        FriendsofFriends = 3,
-        /// <summary>
-        /// Users Only.
-        /// </summary>
-        UsersOnly = 4,
-        /// <summary>
-        /// Public.
-        /// </summary>
-        Public = 5
+        Public = 3
     }
 }
