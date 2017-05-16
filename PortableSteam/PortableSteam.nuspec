@@ -2,6 +2,7 @@
 <package >
   <metadata>
     <id>SteamWebAPI</id>
+	<title>Portable Steam Web API Wrapper for C#</title>
 	<version>$version$</version>
     <authors>Albin Ma, Marcel K.</authors>
     <owners>Albin Ma, Marcel K.</owners>

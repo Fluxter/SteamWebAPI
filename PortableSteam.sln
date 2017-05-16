@@ -5,6 +5,8 @@ VisualStudioVersion = 15.0.26430.4
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableSteam", "PortableSteam\PortableSteam.csproj", "{3BCF1516-55FB-411B-BD60-A6AC957DE9C1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PortableSteamTests", "PortableSteamTests\PortableSteamTests.csproj", "{F2206EC8-A6FD-459E-A774-EB97AB5AA2F9}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +17,10 @@ Global
 		{3BCF1516-55FB-411B-BD60-A6AC957DE9C1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3BCF1516-55FB-411B-BD60-A6AC957DE9C1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3BCF1516-55FB-411B-BD60-A6AC957DE9C1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F2206EC8-A6FD-459E-A774-EB97AB5AA2F9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F2206EC8-A6FD-459E-A774-EB97AB5AA2F9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F2206EC8-A6FD-459E-A774-EB97AB5AA2F9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F2206EC8-A6FD-459E-A774-EB97AB5AA2F9}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

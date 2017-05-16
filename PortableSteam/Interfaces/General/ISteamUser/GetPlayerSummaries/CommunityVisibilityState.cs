@@ -6,11 +6,15 @@
     public enum CommunityVisibilityState
     {
         /// <summary>
-        /// Not visible to the given account (friends only or private)
+        /// Not visible for you
         /// </summary>
         Private = 1,
         /// <summary>
-        /// Public: Visible to everyone
+        /// This is visible for friends only
+        /// </summary>
+        FriendsOnly = 2,
+        /// <summary>
+        /// Visible for the issuing user.
         /// </summary>
         Public = 3
     }
