@@ -19,20 +19,19 @@ namespace Fluxter.SteamWebAPI.Interfaces.General.IPlayerService.GetOwnedGames
         }
 
         public long SteamID { get; set; }
+
         public bool IncludeAppInfo { get; set; }
+
         public bool IncludePlayedFreeGames { get; set; }
 
-        protected internal override string EndpointUrl
-        {
-            get { return "http://api.steampowered.com/IPlayerService/GetOwnedGames/v1"; }
-        }
+        protected internal override string EndpointUrl => "http://api.steampowered.com/IPlayerService/GetOwnedGames/v1";
 
         protected override QueryStringDictionary GetParameterList()
         {
             var parameters = base.GetParameterList();
             parameters.Add("steamid", this.SteamID);
-            parameters.Add("include_appinfo", this.IncludeAppInfo);
-            parameters.Add("include_played_free_games", this.IncludePlayedFreeGames);
+            parameters.Add("include_appinfo", this.IncludeAppInfo ? "1" : "0");
+            parameters.Add("include_played_free_games", this.IncludePlayedFreeGames ? "1" : "0");
             return parameters;
         }
     }

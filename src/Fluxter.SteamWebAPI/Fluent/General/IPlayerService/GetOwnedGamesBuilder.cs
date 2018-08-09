@@ -26,10 +26,9 @@ namespace Fluxter.SteamWebAPI.Fluent.General.IPlayerService
         ///     Whether or not to include additional details of apps - name and images.
         /// </summary>
         /// <returns></returns>
-        [Obsolete("No longer appears to be supported by Steam.")]
         public GetOwnedGamesBuilder IncludeAppInfo()
         {
-            this.Request.IncludeAppInfo = true;
+            this.Request.IncludePlayedFreeGames = true;
             return this;
         }
 

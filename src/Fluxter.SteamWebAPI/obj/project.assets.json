@@ -225,11 +225,11 @@
       "hideWarningsAndErrors": true
     },
     "restore": {
-      "projectUniqueName": "Y:\\Daten\\Git\\github.com\\Fluxter.SteamWebAPI\\Fluxter.SteamWebAPI\\Fluxter.SteamWebAPI\\Fluxter.SteamWebAPI.csproj",
+      "projectUniqueName": "Y:\\Daten\\Git\\github.com\\Fluxter.SteamWebAPI\\src\\Fluxter.SteamWebAPI\\Fluxter.SteamWebAPI.csproj",
       "projectName": "Fluxter.SteamWebAPI",
-      "projectPath": "Y:\\Daten\\Git\\github.com\\Fluxter.SteamWebAPI\\Fluxter.SteamWebAPI\\Fluxter.SteamWebAPI\\Fluxter.SteamWebAPI.csproj",
+      "projectPath": "Y:\\Daten\\Git\\github.com\\Fluxter.SteamWebAPI\\src\\Fluxter.SteamWebAPI\\Fluxter.SteamWebAPI.csproj",
       "packagesPath": "C:\\Users\\Marce\\.nuget\\packages\\",
-      "outputPath": "Y:\\Daten\\Git\\github.com\\Fluxter.SteamWebAPI\\Fluxter.SteamWebAPI\\Fluxter.SteamWebAPI\\obj\\",
+      "outputPath": "Y:\\Daten\\Git\\github.com\\Fluxter.SteamWebAPI\\src\\Fluxter.SteamWebAPI\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackagesFallback\\",
