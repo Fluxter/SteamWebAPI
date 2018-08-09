@@ -1,0 +1,8 @@
+Y:\Daten\Git\github.com\Fluxter.SteamWebAPI\Fluxter.SteamWebAPI\Fluxter.SteamWebAPI\bin\Debug\netstandard2.0\Fluxter.SteamWebAPI.deps.json
+Y:\Daten\Git\github.com\Fluxter.SteamWebAPI\Fluxter.SteamWebAPI\Fluxter.SteamWebAPI\bin\Debug\netstandard2.0\Fluxter.SteamWebAPI.dll
+Y:\Daten\Git\github.com\Fluxter.SteamWebAPI\Fluxter.SteamWebAPI\Fluxter.SteamWebAPI\obj\Debug\netstandard2.0\Fluxter.SteamWebAPI.csproj.CoreCompileInputs.cache
+Y:\Daten\Git\github.com\Fluxter.SteamWebAPI\Fluxter.SteamWebAPI\Fluxter.SteamWebAPI\obj\Debug\netstandard2.0\Fluxter.SteamWebAPI.AssemblyInfoInputs.cache
+Y:\Daten\Git\github.com\Fluxter.SteamWebAPI\Fluxter.SteamWebAPI\Fluxter.SteamWebAPI\obj\Debug\netstandard2.0\Fluxter.SteamWebAPI.AssemblyInfo.cs
+Y:\Daten\Git\github.com\Fluxter.SteamWebAPI\Fluxter.SteamWebAPI\Fluxter.SteamWebAPI\bin\Debug\netstandard2.0\Fluxter.SteamWebAPI.pdb
+Y:\Daten\Git\github.com\Fluxter.SteamWebAPI\Fluxter.SteamWebAPI\Fluxter.SteamWebAPI\obj\Debug\netstandard2.0\Fluxter.SteamWebAPI.dll
+Y:\Daten\Git\github.com\Fluxter.SteamWebAPI\Fluxter.SteamWebAPI\Fluxter.SteamWebAPI\obj\Debug\netstandard2.0\Fluxter.SteamWebAPI.pdb
