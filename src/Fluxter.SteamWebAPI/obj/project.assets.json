@@ -220,13 +220,13 @@
     "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
-    "version": "2.0.0",
+    "version": "2.0.1",
     "restoreSettings": {
       "hideWarningsAndErrors": true
     },
     "restore": {
       "projectUniqueName": "Y:\\Daten\\Git\\github.com\\Fluxter.SteamWebAPI\\src\\Fluxter.SteamWebAPI\\Fluxter.SteamWebAPI.csproj",
-      "projectName": "Fluxter.SteamWebAPI",
+      "projectName": "SteamWebAPI",
       "projectPath": "Y:\\Daten\\Git\\github.com\\Fluxter.SteamWebAPI\\src\\Fluxter.SteamWebAPI\\Fluxter.SteamWebAPI.csproj",
       "packagesPath": "C:\\Users\\Marce\\.nuget\\packages\\",
       "outputPath": "Y:\\Daten\\Git\\github.com\\Fluxter.SteamWebAPI\\src\\Fluxter.SteamWebAPI\\obj\\",

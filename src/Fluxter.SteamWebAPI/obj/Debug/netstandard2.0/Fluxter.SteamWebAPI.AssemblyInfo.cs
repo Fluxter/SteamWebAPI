@@ -11,13 +11,15 @@
 using System;
 using System.Reflection;
 
-[assembly: System.Reflection.AssemblyCompanyAttribute("Fluxter.SteamWebAPI")]
+[assembly: System.Reflection.AssemblyCompanyAttribute("Fluxter")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
-[assembly: System.Reflection.AssemblyFileVersionAttribute("2.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.0.0")]
+[assembly: System.Reflection.AssemblyDescriptionAttribute("Steam Web API Wrapper for C#. Intuitive way to request data from Valve\'s Steam We" +
+    "b API service using a Fluent design pattern.")]
+[assembly: System.Reflection.AssemblyFileVersionAttribute("2.0.1.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("2.0.1")]
 [assembly: System.Reflection.AssemblyProductAttribute("Fluxter.SteamWebAPI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("Fluxter.SteamWebAPI")]
-[assembly: System.Reflection.AssemblyVersionAttribute("2.0.0.0")]
+[assembly: System.Reflection.AssemblyVersionAttribute("2.0.1.0")]
 
 // Von der MSBuild WriteCodeFragment-Klasse generiert.
 
